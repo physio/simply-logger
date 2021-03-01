@@ -1,0 +1,30 @@
+{
+  "name": "simply-logger",
+  "version": "1.0.0",
+  "description": "Based on the pinojs library, it extends some features to make it easier to use.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/physio/simply-logger.git"
+  },
+  "author": "Gallo Mauro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/physio/simply-logger/issues"
+  },
+  "homepage": "https://github.com/physio/simply-logger#readme",
+  "devDependencies": {
+    "@types/pino": "^6.3.6",
+    "jest": "^26.6.3",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "pino": "^6.11.1",
+    "pino-pretty": "^4.5.0"
+  }
+}
