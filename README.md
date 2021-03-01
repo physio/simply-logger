@@ -7,7 +7,7 @@ Thanks to [Pinojs](https://www.npmjs.com/package/pino) developers.
 
 To install:
 
-> $ npm install easy-logger
+> $ npm install @mauro.gallo/simply-logger
 
 ## Usage
 
