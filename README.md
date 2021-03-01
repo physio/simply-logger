@@ -3,13 +3,13 @@
 Based on the pinojs library, it extends some features to make it easier to use.
 Thanks to [Pinojs](https://www.npmjs.com/package/pino) developers.
 
-## Install
+## Installation
 
 To install:
 
 > $ npm install @mauro.gallo/simply-logger
 
-## Usage
+## Getting Started
 
 ```js
 
