@@ -17,7 +17,7 @@ export class Logger {
    * @param {any} layout:string=null
    * @returns {any}
    */
-  constructor(name: string = "myapp", lev: string = "debug", layout: string = null) {
+  constructor(name: string = "myapp", lev: string = "debug", layout: string = "") {
     this._prefix = name;
     this._pino = require("pino");
     this._layoutPrefix = (layout == null) ? `[ ${this._prefix} ] >` : layout;
