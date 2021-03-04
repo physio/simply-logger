@@ -1,6 +1,6 @@
 {
-  "name": "@mauro.gallo/simply-logger",
-  "version": "1.0.3",
+  "name": "@mentel/simply-logger",
+  "version": "1.0.4",
   "description": "Based on the pinojs library, it extends some features to make it easier to use.",
   "main": "out/index.js",
   "types": "out/index.d.ts",
@@ -33,5 +33,8 @@
     "@types/node": "^14.14.31",
     "pino": "^6.11.1",
     "pino-pretty": "^4.5.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
