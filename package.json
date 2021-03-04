@@ -21,10 +21,13 @@
   },
   "homepage": "https://github.com/physio/simply-logger#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.20",
     "@types/pino": "^6.3.6",
     "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "ts-jest": "^26.5.3",
     "tslint": "^5.12.1",
-    "typescript": "^3.3.3"
+    "typescript": "^3.9.9"
   },
   "dependencies": {
     "@types/node": "^14.14.31",

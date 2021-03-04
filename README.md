@@ -7,18 +7,18 @@ Thanks to [Pinojs](https://www.npmjs.com/package/pino) developers.
 
 To install:
 
-> $ npm install @mauro.gallo/simply-logger
+> $ npm install mauro.gallo/simply-logger
 
 ## Getting Started
 
 ```js
 
-import { Logger } from "easy-logger"
-logger new Logger('MyApp')
+import { Logger } from "easy-logger";
+logger = new Logger('MyApp');
 
 
 ...
-logger.printError('this is an error')
+logger.printError('this is an error');
 
 const 
 ```
