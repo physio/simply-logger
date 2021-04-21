@@ -24,6 +24,7 @@ export class Logger {
 
     this._logger = require("pino")(
       {
+        name: this._prefix,
         level: lev,
         prettyPrint:
           {
