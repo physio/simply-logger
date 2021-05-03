@@ -27,10 +27,10 @@ export class Logger {
         name: this._prefix,
         level: lev,
         prettyPrint:
-          {
-            levelFirst: true,
-            translateTime: "SYS:yyyy-mm-dd HH:MM:ss"
-          },
+        {
+          levelFirst: true,
+          translateTime: "SYS:yyyy-mm-dd HH:MM:ss"
+        },
         // tslint:disable-next-line: object-literal-sort-keys
         prettifier: require("pino-pretty")
       }
@@ -52,7 +52,7 @@ export class Logger {
     const str = this._getPrefixLayout(dirtyStr);
     const status = this._alsoTowardsDisplay(str);
     if (!status) {
-        this._logger.error(str);
+      this._logger.error(str);
     }
   }
 
@@ -69,11 +69,11 @@ export class Logger {
    */
   public printCritical(dirtyStr: any): void {
     const str = this._getPrefixLayout(dirtyStr);
-    const status = this._alsoTowardsDisplay(str);
-    if (!status) {
-        this._logger.error(str);
-        this._logger.error(`Exit program... :-(`);
-    }
+    //  const status = this._alsoTowardsDisplay(str);
+    //  if (!status) {
+    this._logger.error(str);
+    //     this._logger.error(`Exit program... :-(`);
+    //  }
   }
 
 
