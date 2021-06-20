@@ -1,6 +1,6 @@
 {
 	"name": "@mauro.gallo/simply-logger",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"description": "Based on the pinojs library, it extends some features to make it easier to use.",
 	"main": "out/index.js",
 	"types": "out/index.d.ts",

@@ -50,11 +50,7 @@ export class Logger {
    */
   public printError(dirtyStr: any): void {
     const str = this._getPrefixLayout(dirtyStr);
-    const status = this._alsoTowardsDisplay(str);
     this._logger.error(str);
-    /*if (!status) {
-      this._logger.error(str);
-    }*/
   }
 
 
